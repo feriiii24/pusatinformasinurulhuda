@@ -1,0 +1,2 @@
+<?php echo $__env->make('dashboard.informasi.informasipenasantri', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
+<?php /**PATH C:\Users\Danir\pinha\resources\views\dashboard\informasi\penasantri.blade.php ENDPATH**/ ?>

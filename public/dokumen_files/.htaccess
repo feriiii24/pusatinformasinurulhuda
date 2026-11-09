@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    # If request is to this directory and not an existing file, route to parent index.php
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ ../index.php [L]
+</IfModule>
